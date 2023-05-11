@@ -16,13 +16,26 @@
         <members>Lead-Clientes</members>
         <name>Layout</name>
     </types>
-
     <types>
         <members>Lead.CPF_CNPJ__c</members>
         <members>Lead.Data_contato__c</members>
         <members>Lead.Marcas_de_Interesse__c</members>
+        <members>Product2.Marca__c</members>
+        <members>Product2.Ano__c</members>
+        <members>Product2.Custo_de_Fabricacao__c</members>
+        <members>Product2.Quantidade_de_Estoque__c</members>
+        <members>Product2.Valor_de_Venda__c</members>
+        <members>Product2.Valor_FIPE__c</members>
+        <members>Product2.Versao__c</members>
+        <members>Opportunity.Tipo_de_Contrato__c</members>
         <name>CustomField</name>
     </types>
-    
+    <types>
+       <members>ServiceContract</members>
+       <name> WorkflowRule</name>
+    </types>
+
+
+      
     <version>56.0</version>
 </Package>

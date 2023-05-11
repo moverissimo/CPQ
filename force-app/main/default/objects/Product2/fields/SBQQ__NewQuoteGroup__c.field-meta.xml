@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__NewQuoteGroup__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Forces this product to be in its own group on a quote.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Marque para criar um novo grupo de cotação quando esse produto for adicionado (a menos que o grupo atual esteja vazio).</inlineHelpText>
+    <label>New Quote Group</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
