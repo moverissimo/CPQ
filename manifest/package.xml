@@ -4,10 +4,24 @@
         <members>AccountTrigger</members>
         <name>ApexTrigger</name>
     </types>
-
     <types>
         <members>Account.ValidaCEP</members>
         <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Caminhoes</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Lead-Clientes</members>
+        <name>Layout</name>
+    </types>
+
+    <types>
+        <members>Lead.CPF_CNPJ__c</members>
+        <members>Lead.Data_contato__c</members>
+        <members>Lead.Marcas_de_Interesse__c</members>
+        <name>CustomField</name>
     </types>
     
     <version>56.0</version>
