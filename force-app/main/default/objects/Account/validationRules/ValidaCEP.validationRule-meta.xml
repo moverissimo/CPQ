@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidaCEP</fullName>
+    <active>true</active>
+    <description>verifica se o CEP é válido</description>
+    <errorConditionFormula>AND(
+ OR( BillingCountry = &quot;BRA&quot;,BillingCountry = &quot;BR&quot;),
+ NOT(REGEX( BillingPostalCode , &quot;\\d{5}(-\\d{3})?&quot;))
+)</errorConditionFormula>
+    <errorMessage>O CEP deve estar  como 99999999 ou 99999-999</errorMessage>
+</ValidationRule>
